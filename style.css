@@ -1,0 +1,258 @@
+body{ /*Balise du SiteWeb*/
+    background-image: url('Photo/green-background-vector-and-premium-high-res-pictures-free-free-photo.jpg'); /*Fond du siteweb*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2{ /*Balise de tout les textes H2*/
+    font-size: 20px;
+
+    font-family: "Unkempt", cursive;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+h1{ /*Balise de tout les textes H1*/
+    text-align: center;
+    font-family: "Unkempt", cursive;
+}
+
+p{ /*Balise de tout les paragraphes*/
+    font-size: 20px;
+
+    font-family: "Unkempt", cursive;
+    color: white;
+    font-weight: 50;
+    margin: 5px 0; 
+}
+
+*{ /*Enlever les bordures du sites*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.TextAcceuil{ /*Balise du Texte D'acceuil*/
+    font-family: "Unkempt", cursive;
+    font-weight: bold;
+    text-align: center;
+    
+    width: 90%px;
+    height: 10%;
+    background-color: hsla(123, 100%, 50%, 0.5);
+    padding: 10px;
+    margin: 30px;
+
+    border-radius: 25px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.TextSousAcceuil{ /*Balise du Texte en footer*/
+    font-size: 24px;
+    text-align: center;
+    color: black;
+
+    width: 100%;
+    height: 100px;
+    margin-top: 25%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.Tuto{ /*Balise de l'explication + navigation*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Explication{ /*Balise de l'explication*/
+    font-family: "Unkempt", cursive;
+
+    width: 45%;
+    min-height: fit-content;
+    margin: 5px;
+    padding: 20px;
+    background-color:rgba(144, 185, 141, 0.8);
+
+    border: 3px solid black;
+    border-radius: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Navigation{ /*Balise de navigation*/
+    color: white;
+    font-family: "Unkempt", cursive;
+
+    width: 45%;
+    min-height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    background-color:rgba(144, 185, 141, 0.8);
+
+    border: 3px solid black;
+    border-radius: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Bugs{ /*Balise de la 1er rangée de photo d'insecte*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.Bugs img:hover { /*Balise de la 1er rangée de photo d'insecte*/
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.1);
+    box-shadow:
+        0 0 10px #7CFF00,
+        0 0 25px rgba(124, 255, 0, 0.4);
+}
+
+.Bugs img:active{ /*Balise de la 1er rangée de photo d'insecte*/
+    transform: translateY(-5px) scale(0.98);
+}
+
+.Bugs img{ /*Balise de la 1er rangée de photo d'insecte*/
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.Bugs2{ /*Balise de la 2eme rangée de photo d'insecte*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.Bugs2 img{ /*Balise de la 2eme rangée de photo d'insecte*/
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.Bugs2 img:hover { /*Balise de la 2eme rangée de photo d'insecte*/
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.1);
+    box-shadow:
+        0 0 10px #7CFF00,
+        0 0 25px rgba(124, 255, 0, 0.4);
+}
+
+.Bugs2 img:active{ /*Balise de la 2eme rangée de photo d'insecte*/
+    transform: translateY(-5px) scale(0.98);
+}
+
+.Top{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeButton img{ /*Balise du bouton pour revenir à la page d'acceuil*/
+    width: 120px;
+    height: 100px;
+    background-color: darkslategrey;
+    padding: 10%;
+    margin: 30px;
+
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.HomeButton img:hover{ /*Balise du bouton pour revenir à la page d'acceuil*/
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.1);
+}
+
+.HomeButton img:active{ /*Balise du bouton pour revenir à la page d'acceuil*/
+    transform: translateY(-5px) scale(0.98);
+}
+
+.Title{ /*Balise du titre de la page*/
+    font-family: "Unkempt", cursive;
+    font-weight: bold;
+    text-align: center;
+    
+    width: 90%;
+    height: 10%;
+    background-color: hsla(123, 100%, 50%, 0.5);
+    padding: 10px;
+    margin: 30px;
+
+    border-radius: 25px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Text{ /*Balise de la description + photo de l'insecte*/
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BugPhoto img{  /*Photo de l'insecte*/
+    border: 3px solid black;
+    border-radius: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TextBug{ /*Balise de la description de l'insecte*/
+    font-family: "Unkempt", cursive;
+
+    width: 60%;
+    min-height: fit-content;
+    margin: 5px;
+    padding: 20px;
+    background-color:rgba(144, 185, 141, 0.8);
+
+    border: 3px solid black;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TextMantis{ /*Balise de la description de la mante religieuse*/
+    font-family: "Unkempt", cursive;
+
+    width: 60%;
+    min-height: fit-content;
+    margin: 5px;
+    padding: 20px;
+    background-color:rgba(144, 185, 141, 0.8);
+
+    border: 3px solid black;
+    border-radius: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
